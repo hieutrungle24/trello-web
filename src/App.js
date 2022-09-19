@@ -1,12 +1,19 @@
-import './App.css';
+import React from "react";
+import './App.scss'
+
+// custom components
+import AppBar from "./components/AppBar/AppBar";
+import BoardBar from "./components/BoardBar/BoardBar";
+import BoardContent from "./components/BoardContent/BoardContent";
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        h1 > Hello world < /h1> < /
-        div >
-    );
+    return (
+        <div className='trello-master'>
+            <AppBar/>
+            <BoardBar/>
+            <BoardContent/>
+        </div>
+    )
 }
 
-export default App;
+export default App
