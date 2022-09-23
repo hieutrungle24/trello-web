@@ -1,6 +1,7 @@
 @import '../../setting';
 $appbar-bg-color:#0054b5;
  .navbar-app {
+    height: $navbar-app-height;
     padding-left: $gap;
     display: flex;
     align-items: center;
